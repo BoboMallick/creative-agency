@@ -1,0 +1,20 @@
+.card:hover{
+    -webkit-box-shadow: 0px -1px 19px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -1px 19px -5px rgba(0,0,0,0.75);
+    box-shadow: 0px -1px 19px -5px rgba(0,0,0,0.75);
+    cursor: pointer;
+    background-color:#FBD062;
+    border-radius:none;
+}
+
+.card{
+    border: none;
+    margin-bottom: 20%;
+}
+.link:hover{
+    text-decoration:none;
+}
+.link{
+    color: black;
+}
+

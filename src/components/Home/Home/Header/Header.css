@@ -1,0 +1,5 @@
+.color-bg{
+    background-color: #FBD062;
+    height: 800px;
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+}

@@ -1,0 +1,27 @@
+.work-slider{
+    height: 524px;
+    background-color: #111430;
+}
+.slick-dots li{
+    width: 15px !important;
+    height: 15px !important;
+    background-color: #242A65 ;
+    border-radius: 50%;
+  
+}
+.slick-dots li button:before {
+    color:#242A65; 
+}
+.slick-dots li.slick-active button:before{
+    color:#FBD062;
+}
+
+.slick-dots .slick-active {
+    background-color: #FBD062 !important;
+}
+.slick-slide{
+    margin: 0 -10px;
+}
+.white{
+    color: white;
+}

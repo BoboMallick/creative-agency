@@ -1,0 +1,25 @@
+.navbar-login {
+  background-color: #111430;
+  width: 134px;
+  height: 45px;
+  left: 1171px;
+  color: white;
+  border: none;
+  border-radius: 7px;
+}
+#navbarNav > ul a:hover{
+    color: green ;
+  }
+#navbarNav > ul >li > a:after{
+      content: '';
+      display: block;
+      height: 2px;
+      background: green;
+      transform: scaleX(0);
+      transition: transform .3s;
+  }
+#navbarNav > ul >  li > a:hover:after{
+      transform: scaleX(1);
+      transition: transform .3s;
+  }
+
